@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap');
+
+:root{
+  --Brand-color: #A80000;
+  --Dark-Color: #222222;
+  --Light-color: #DFDFDF;
+
+  --font-style: 'Poppins', sans-serif;
+}
+
+.SearchResult{
+    padding-top: 100px;
+}
