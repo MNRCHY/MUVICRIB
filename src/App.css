@@ -1,4 +1,21 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap');
+
+:root{
+  --Brand-color: #A80000;
+  --Dark-Color: #222222;
+  --Light-color: #DFDFDF;
+
+  --font-style: 'Poppins', sans-serif;
+}
+
+.App{
+  background-color: var(--Dark-Color);
+  font-family: var(--font-style);
+  color: var(--Light-color);
+  /* text-align: center; */
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +52,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
