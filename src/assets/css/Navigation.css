@@ -15,6 +15,11 @@
     width: 100%;
     z-index: 9;
 }
+
+.BrandLink{
+    text-decoration: none;
+}
+
 .BrandLogo{
     font-size: 25px;
     font-family: var(--font-style);

@@ -11,3 +11,11 @@
 .SearchResult{
     padding-top: 100px;
 }
+
+.MoviePoster {
+  width: 225px;
+
+  border-style: solid;
+  border-width: 5px;
+  border-color: var(--Brand-color);
+}

@@ -8,6 +8,10 @@
   --font-style: 'Poppins', sans-serif;
 }
 
+.BrandLink{
+  text-decoration: none;
+}
+
 .DetailNav{
   height: 100px;
 }

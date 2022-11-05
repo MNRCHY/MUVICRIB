@@ -1,5 +1,4 @@
 import axios from 'axios'
-import { useParams } from 'react-router-dom'
 import { getAllDetailReducers } from '../reducers/detailReducer'
 
 export const getAllDetails = (id) => async (dispatch) => {

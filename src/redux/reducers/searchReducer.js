@@ -1,18 +1,18 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-    results : []
+    searches: []
 }
 
-const resultSlicer = createSlice({
-    name: 'result',
+const searchSlicer = createSlice({
+    name: 'search',
     initialState,
     reducers: {
-        getAllResultReducers: (state, action) => {
-            state.details = action.payload
+        getAllSearchReducers: (state, action) => {
+            state.searches = action.payload
         }
     }
 })
 
-export const { getAllResultReducers } = resultSlicer.actions
-export default resultSlicer.reducer
+export const {getAllSearchReducers} = searchSlicer.actions
+export default searchSlicer.reducer

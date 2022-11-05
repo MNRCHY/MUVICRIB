@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import '../assets/css/Navigation.css'
-import { Button, Form, Navbar, NavbarBrand } from 'react-bootstrap'
+import { Button, Form, Navbar } from 'react-bootstrap'
 import { Link, useNavigate } from 'react-router-dom'
 
 function Navigation() {
@@ -10,7 +10,9 @@ function Navigation() {
   return (
     <div className='Navigation'>
         <Navbar className='mx-5 py-3'>
-            <h5 className='BrandLogo'> MUVI<span>CRIB</span> </h5>
+            <Link className='BrandLink' to='/'>
+              <h5 className='BrandLogo'> MUVI<span>CRIB</span> </h5>
+            </Link>
 
             <Form className='d-flex justify-content-center' style={{width: '100%'}}>
                 <input onChange={(e) => setSearch(e.target.value)} type='text' placeholder='Search' className='searchForm py-1 px-2' style={{width: '300px'}} />

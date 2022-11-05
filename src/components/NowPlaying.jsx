@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import '../assets/css/NowPlaying.css'
-import CardPic from '../assets/picts/CardPic.jpg'
 
 import { useDispatch, useSelector } from 'react-redux'
 import { getAllMovies } from '../redux/actions/movieAction'

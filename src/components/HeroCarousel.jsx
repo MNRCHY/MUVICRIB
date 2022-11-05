@@ -1,12 +1,10 @@
 import React, {useEffect} from 'react'
 import '../assets/css/HeroCarousel.css'
-import CarouselPic from '../assets/picts/CarouselPic.jpg'
 import { Carousel } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 import { useDispatch, useSelector } from 'react-redux'
 import { getAllTrends } from '../redux/actions/trendingAction'
-import movieReducer from '../redux/reducers/movieReducer'
 
 function HeroCarousel() {
     const dispatch = useDispatch()
